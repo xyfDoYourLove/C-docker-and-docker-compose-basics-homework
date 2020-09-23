@@ -1,4 +1,4 @@
-package com.thoughtworks.capability.gtb.alice;
+package com.thoughtworks.capability.gtb.alice.api;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.web.bind.annotation.GetMapping;
