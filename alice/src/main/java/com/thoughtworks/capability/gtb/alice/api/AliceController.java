@@ -17,7 +17,7 @@ public class AliceController {
 
   @GetMapping(path = "/hello")
   public String sayHello(){
-    return restTemplate.getForObject("http://localhost:8090/v1/bob/hello", String.class);
+    return restTemplate.getForObject("http://bob:8090/v1/bob/hello", String.class);
   }
 
 }
